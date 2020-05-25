@@ -1,5 +1,5 @@
-# kris.ventures
+# Eric Rugara, Samurai Pen 
 
 Check out my personal website
 
-[krisbogdanov.com](https://krisbogdanov.com/)
+[EricRugara.com](https://ericrugara.com/)
