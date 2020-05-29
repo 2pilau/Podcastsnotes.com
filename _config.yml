@@ -1,11 +1,11 @@
 # Site settings
-title: Kris Bogdanov 👋
-email:
-author:
-description:
-url: https://kris.ventures
-twitter_username: kris_bogdanov
-instagram_username: kris.ventures
+title: Podcasts Notes 👋
+email: 
+author: Insight Nderitu
+description: Podcast Notes Ideas and Tools
+url: https://podcastsnotes.com
+twitter_username: podcastsnotes
+instagram_username: podcastsnotes
 
 
 # category pages
@@ -21,7 +21,7 @@ defaults:
       layout: "category"
 
 # Build settings
-permalink: /blog/:slug/
+permalink: /notes/:slug/
 plugins:
   - jekyll-feed
   - jekyll-assets
