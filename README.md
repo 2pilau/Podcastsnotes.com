@@ -1,5 +1,4 @@
-# Eric Rugara, Samurai Pen 
+# PodcastsNotes.com
 
-Check out my personal website
-
-[EricRugara.com](https://ericrugara.com/)
+Key takeaways and intresting content from your favourite podcasts
+[Podcastsnotes.com](https://podcastsnotes.com/)
