@@ -8,9 +8,9 @@ layout: default
     <div class="row">
       <div class="col-lg-6">
         <div style="width: 90%;" class="mt-5 mt-lg-7">
-          <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-out" style="font-size: 52px;">Hello, 👋 my name is Eric. My pen is a katana. Precision is its aim and its reputation.</h1>
+          <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-out" style="font-size: 52px;">Hello, 👋Podcasts Notes helps you save time by distiling the best thoughts from the best podcasts.</h1>
           {% assign post = site.posts.first %}
-          <a data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500"  style="font-size:22px;" class="btn-cta mt-3 btn btn-primary px-4" href="{{ root_url }}{{ post.url }}">Read my latest article</a>
+          <a data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500"  style="font-size:22px;" class="btn-cta mt-3 btn btn-primary px-4" href="{{ root_url }}{{ post.url }}">Read the latest article</a>
         </div>
       </div>
       <div class="col-lg-6 hero-image mt-4 mt-lg-0 d-flex justify-content-center mb-4 mb-lg-0">
@@ -24,29 +24,29 @@ layout: default
       <div class="col-lg-6 d-flex flex-column-reverse flex-lg-column align-items-center mb-4">
           <img  class="feature-image" src="{% asset "landing-developer.svg" @path %}">
           <div>
-            <h2 class="text-center mt-3">Build</h2>
-            <p class="text-muted text-center font-size-6 w-lg-50 w-75 mx-auto">I love building things, especially websites. My current stack is Ruby on Rails, TailwindCSS and a lot of Javascript.</p>
+            <h2 class="text-center mt-3">Who we are</h2>
+            <p class="text-muted text-center font-size-6 w-lg-50 w-75 mx-auto">We are a community of insanely productive and passionate people who love podcasts.</p>
           </div>
       </div>
       <div class="col-lg-6 d-flex flex-column-reverse flex-lg-column align-items-center mb-4">
           <img class="feature-image" src="{% asset "landing-maker.svg" @path %}">
           <div>
-            <h2 class="text-center mt-3">Make</h2>
-            <p class="text-muted text-center font-size-6 w-lg-50 w-75 mx-auto">Besides making websites, I also strive to turn them into successful businesses.</p>
+            <h2 class="text-center mt-3">What we do</h2>
+            <p class="text-muted text-center font-size-6 w-lg-50 w-75 mx-auto">We take out all the fluff and provide the most wisdom per page from any podcast.</p>
           </div>
       </div>
       <div class="col-lg-6 d-flex flex-column-reverse flex-lg-column align-items-center mb-4">
           <img class="feature-image" src="{% asset "landing-nomads.svg" @path %}">
           <div>
-            <h2 class="text-center mt-3">Travel</h2>
-            <p class="text-muted text-center font-size-6 w-lg-50 w-75 mx-auto">My girlfriend and I travel the world, while working full-time. You can find plenty of photos of my laptop on <a class="link" href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+            <h2 class="text-center mt-3">How we do it</h2>
+            <p class="text-muted text-center font-size-6 w-lg-50 w-75 mx-auto">We make podcast transcripts then try to compress then condense them into quick reads <a class="link" href="https://www.podcastnotes.com/tools" target="_blank" rel="noopener noreferrer">here</a>.</p>
           </div>
       </div>
       <div class="col-lg-6 d-flex flex-column-reverse flex-lg-column align-items-center mb-4">
           <img class="feature-image" src="{% asset "landing-books.svg" @path %}">
           <div>
-            <h2 class="text-center mt-3">Write</h2>
-            <p class="text-muted text-center font-size-6 w-lg-50 w-75 mx-auto">I write <a class="link" href="/blog">articles</a> about being a self-taught developer, travel, productivity and <a class="link" href="https://railsjunior.com/" target="_blank" rel="noopener noreferrer">Ruby on Rails</a>.</p>
+            <h2 class="text-center mt-3">Why we do it</h2>
+            <p class="text-muted text-center font-size-6 w-lg-50 w-75 mx-auto">Our <a class="link" href="/blog">notes</a> save thousands of hours of time for busy proffesionals worldwide making them insanely productive while consuming podcasts or finding <a class="link" href="/tools/" target="_blank" rel="noopener noreferrer"> world class tools</a>.</p>
           </div>
       </div>
     </div>
@@ -54,7 +54,7 @@ layout: default
   <!-- Recent articles -->
   <section class="mt-5 container mx-lg-5">
     <div class="row px-3">
-      <h2 class="mb-4">Recent articles</h2>
+      <h2 class="mb-4">Recent podcast notes</h2>
     </div>
     {% assign counter = 0 %}
     {% for post in site.posts %}
@@ -173,7 +173,7 @@ layout: default
         </svg>
         <div class="mb-3">
           <div class="font-size-2 text-center mb-3 line-height-3">Get in touch</div>
-          <div class="text-center font-size-6">No matter the reason, you are always welcome to email me!</div>
+          <div class="text-center font-size-6">No matter the reason, you are always welcome to contact us!</div>
         </div>
         <div class="text-center cta-button">
           <a href="/contact" class="btn-cta btn btn-primary font-size-5" >Say hello</a>
